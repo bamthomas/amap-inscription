@@ -127,4 +127,7 @@ header > img {
     margin: 1em 1em;
     padding: 1em 1em;
   }
+  img.page__header__amap {
+    width: 360px;
+  }
 }
