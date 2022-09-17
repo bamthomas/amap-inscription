@@ -73,6 +73,10 @@ header > img {
   color: #004352;
 }
 
+.page__producteurs__oeufs a {
+  color: #e83c3c;
+}
+
 .page__producteurs__pain {
   background: #718400;
 }
