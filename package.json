@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "clean": "rm -rf dist src/index.html .parcel-cache",
+    "clean": "rm -rf dist .parcel-cache",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "font-awesome": "^4.7.0"
