@@ -1,0 +1,130 @@
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #004352;
+  line-height: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+header {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #ff9eb8;
+  text-decoration: none;
+}
+
+header > img {
+  object-fit: cover;
+}
+
+.page__section {
+  color: white;
+  border-radius: 1em;
+  background: #004352;
+  margin: 1em;
+  padding: 1em;
+}
+
+.page__ouverture {
+  background: none;
+  color: #004352;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page__producteurs {
+  display: flex;
+  flex-direction: column;
+  background: none;
+}
+
+.page__producteurs__ligne {
+  display: flex;
+}
+
+.producteur {
+  background: #004352;
+  border-radius: 1em;
+  width: 50%;
+  padding: 1em;
+  margin: 1em;
+}
+
+.page__producteurs__legume {
+  background: #006819;
+}
+
+.page__producteurs__oeufs {
+  background: #ffbe8d;
+  color: #004352;
+}
+
+.page__producteurs__pain {
+  background: #718400;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  body {
+    margin: 0 10em;
+  }
+}
+
+/*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    margin: 0 5em;
+  }
+}
+
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0 2em;
+  }
+}
+
+/*
+##Device = Low Resolution Tablets, Mobiles
+##Screen = B/w 481px to 767px
+*/
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    margin: 0 1em;
+  }
+  .page__section {
+    margin: 1em 1em;
+    padding: 1em 1em;
+  }
+  .page__producteurs__ligne {
+    flex-direction: column;
+  }
+  .producteur {
+    width: 90%;
+    margin: 1em 1em;
+    padding: 1em 1em;
+  }
+}
