@@ -81,6 +81,18 @@ header > img {
   background: #718400;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 1600px) {
+  .image-container {
+    flex-direction: column;
+  }
+}
+
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
