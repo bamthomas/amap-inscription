@@ -2,7 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 18px;
-  color: #004352;
+  color: #386641;
   line-height: 1.5em;
 }
 
@@ -22,8 +22,7 @@ header {
 }
 
 a {
-  color: #ff9eb8;
-  text-decoration: none;
+  color: #751f4b;
 }
 
 header > img {
@@ -33,14 +32,14 @@ header > img {
 .page__section {
   color: white;
   border-radius: 1em;
-  background: #004352;
+  background: #000;
   margin: 1em;
   padding: 1em;
 }
 
 .page__ouverture {
   background: none;
-  color: #004352;
+  color: #386641;
   font-size: 2em;
   font-weight: bold;
   text-align: center;
@@ -57,7 +56,7 @@ header > img {
 }
 
 .producteur {
-  background: #004352;
+  background: #6a994e;
   border-radius: 1em;
   width: 50%;
   padding: 1em;
@@ -65,20 +64,20 @@ header > img {
 }
 
 .page__producteurs__legume {
-  background: #006819;
+  background: #abe5b6;
+  color: #000;
 }
 
 .page__producteurs__oeufs {
-  background: #ffbe8d;
-  color: #004352;
+  background: #751f4b;
 }
 
 .page__producteurs__oeufs a {
-  color: #e83c3c;
+  color: #6a994e;
 }
 
-.page__producteurs__pain {
-  background: #718400;
+.page__producteurs__huile-d-olive-miel {
+  background:  #edbe00
 }
 
 .image-container {
