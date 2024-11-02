@@ -32,7 +32,7 @@ header > img {
 .page__section {
   color: white;
   border-radius: 1em;
-  background: #000;
+  background: black;
   margin: 1em;
   padding: 1em;
 }
@@ -64,15 +64,14 @@ header > img {
 }
 
 .page__producteurs__legume {
-  background: #abe5b6;
-  color: #000;
-}
-
-.page__producteurs__oeufs {
   background: #751f4b;
 }
 
-.page__producteurs__oeufs a {
+.page__producteurs__oeufs {
+  background: #4f6bbd;
+}
+
+.page__producteurs__legume a {
   color: #6a994e;
 }
 
