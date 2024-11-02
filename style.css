@@ -2,7 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 18px;
-  color: #386641;
+  color: #6a994e;
   line-height: 1.5em;
 }
 
@@ -39,7 +39,7 @@ header > img {
 
 .page__ouverture {
   background: none;
-  color: #386641;
+  color: #6a994e;
   font-size: 2em;
   font-weight: bold;
   text-align: center;
